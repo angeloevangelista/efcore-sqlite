@@ -1,0 +1,12 @@
+GET http://127.0.0.1:5000/v1/users HTTP/1.1
+
+###
+
+POST http://127.0.0.1:5000/v1/users HTTP/1.1
+content-type: application/json
+
+{
+  "Name": "Angelo",
+  "Email": "angeloevan.ane@gmail.com",
+  "BirthDate": "2001-06-24T00:00:00"
+}
